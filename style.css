@@ -1,0 +1,154 @@
+body{
+    background-color: whitesmoke;
+    padding: 1.5%;
+}
+
+i {
+    font-size: 30px;
+}
+
+.container {
+    padding: 1.5%;
+    background: #d6249f;
+}
+
+.header {
+    padding: 1.5%;
+}
+
+.projects {
+    margin-bottom: 5%;
+}
+
+#red-hover {
+    border-radius: 5px;
+
+    color : #d06eee;
+}
+#main_quote{    
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+
+#red-hover:hover {
+    background-color: #d06eee;
+    transition: 1s;
+    color : black;
+
+}
+
+#projectSection {
+    margin: auto;
+}
+
+.card-title h3 {
+    font-size: 30px;
+}
+
+
+.skill-icons-main-card {
+    width: 100%;
+}
+
+.skill-icons-main-card i{
+    margin-right: 3%;
+    text-shadow: #EE6E73 1px 1px 2px;
+}
+
+.skill-icons-main-card i:last-child{
+    margin-right: 0;
+}
+
+blockquote {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+blockquote h5 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: inherit;
+}
+
+#expTitle {
+    padding-left: 10px;
+}
+
+#skillsTitle {
+    writing-mode: vertical-rl;
+}
+
+#spShadow {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    border-radius: 5px;
+}
+
+#spShadow1 {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px inset;
+    border-radius: 5px;
+    background: radial-gradient(circle at 110% 110%, #fdf497 5%, #fd5949 35%,#d6249f 60%,#285AEB 190%);
+}
+
+#leftColomn {
+    margin-top: 2%;
+    background: rgba(0,0,0,0.1);
+}
+
+footer {
+    padding-bottom: 15px;
+}
+
+#about-me-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#add-right-margin {
+    margin-right: 10%;
+}
+
+.character {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .character img {
+      margin-left: -5%;
+  }
+
+  .character-spritesheet {
+    animation: moveSpritesheet 1s steps(4) infinite;
+  }
+
+  @keyframes moveSpritesheet {
+    from {
+         transform: translate(0px,0)
+     }
+     to {
+         transform: translate(-100%,0)
+     }
+   }
+
+
+@media (max-width: 600px){
+    p {
+        font-size: 24px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    q {
+        font-size: 28px;
+    }
+
+    blockquote {
+        font-size: 28px;
+    }
+}
+
