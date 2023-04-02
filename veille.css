@@ -6,15 +6,21 @@
 	margin: auto;
 	font-size: 1.3em;
 	font-family: sans-serif;
-	background-color: #ddd;
+	
 	line-height: 1.3em;
 }
 
 
 
-article p, #pageTitle, article h3, article h2, article ul, article pre, article h4, article h5{
-	width: 60%;
-	margin-left: 100px;
+
+article p, article ul{
+	width: 50%;
+	margin-left: 470px;
+	
+}
+#pageTitle, article h3, article h2, article pre, article h4, article h5{
+	text-align: center;
+	
 	
 }
 
@@ -40,7 +46,9 @@ article p, #pageTitle, article h3, article h2, article ul, article pre, article 
 	margin-right: auto;
 }
 .Python{
-	margin-left: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
