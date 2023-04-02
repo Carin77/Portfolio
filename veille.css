@@ -12,17 +12,35 @@
 
 
 
-article p, #pageTitle, article h3, article ul, article pre, article h4{
-	width: 90%;
-	max-width: 1000px;
-	margin: 30px auto;
+article p, #pageTitle, article h3, article h2, article ul, article pre, article h4, article h5{
+	width: 60%;
+	margin-left: 100px;
+	
 }
 
 .coverImg {
 	display: block;
-  	margin-left: 23%;
+  	margin-left: 26%;
   	margin-right: auto;
 	margin-top: 30px;
   	width: 900px;
 	height: 500px;
 }
+
+.djangoimg{
+	display : block;
+	margin-left: 26%;
+	margin-right: auto;
+	width: 20%;
+	height: 20%;
+}
+.turboimg{
+	display: block;
+	margin-left: 26%;
+	margin-right: auto;
+}
+.Python{
+	margin-left: 20px;
+}
+
+
